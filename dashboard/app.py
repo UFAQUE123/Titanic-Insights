@@ -12,7 +12,7 @@ from sklearn.model_selection import train_test_split
 # -----------------------------
 # Load the saved trained model
 # -----------------------------
-model = joblib.load('./notebook/titanic_trained_model.pkl')
+model = joblib.load('titanic_trained_model.pkl')
 
 # -----------------------------
 # Dashboard Title and Description
