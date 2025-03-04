@@ -143,7 +143,7 @@ if st.button("Predict Survival"):
 
 ##  load the cleaned dataset
 
-cl_data = pd.read_csv("/dataset/cleaned_data.csv")
+cl_data = pd.read_csv("dashboard/dataset/cleaned_data.csv")
 
 ########################## Tables and Plots ###########################################################################
 
