@@ -54,22 +54,23 @@ Models were trained using a pipeline approach:
 ## 📌 Deployment
 
 - The trained model is saved using `joblib` (`titanic_trained_model.pkl`).
+- The trained model is tested using sample data.
 - Streamlit is used for interactive visualizations.
 - Confusion matrices, survival rate visualizations, and EDA graphs are included.
 
 ## 📂 File Structure
 
 ```
-|-- dataset/
-|   |-- titanic.csv
-|
-|-- notebook/
-|   |-- titanic.ipynb
-    |-- titanic_trained_model.pkl
-|
-|-- dashboard/
-    |-- app.py  # Streamlit app
-    |-- requirements.txt
+|Titanic-Insights/
+   |dashboard/
+      |-- dataset/
+         |-- titanic.csv
+         |-- cleaned_data.csv
+      |-- notebook/
+         |-- titanic.ipynb
+         |-- titanic_trained_model.pkl
+   |-- app.py  # Streamlit app
+   |-- requirements.txt
 |-- README.md
 ```
 
